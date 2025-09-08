@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #fdfdfd;
+  color: #333;
+  line-height: 2.2rem;
+  padding: 2rem;
+}
+.container{
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.141);
+    padding: 3rem;
+    border-radius: 0.7rem;
+    margin: auto;
+    
+}
+/*heading Panel*/
+.header{
+    text-align: center;
+}
+.header p{
+    margin: 0.3rem 0;
+    color: #555;
+}
+.header p a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+h2{
+    color: #2575fc;
+    font-size: 1.6rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+/*Main Content */
+.skills{
+    display: flex;
+    gap: 5rem;
+   
+}
+.list1{
+    list-style: none;
+}
+.list2{
+    list-style: none;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: #777;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .container {
+    width: 95%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header p, footer {
+    font-size: 0.8rem;
+    text-align: center;
+    flex-direction: column;
+  }
+}
